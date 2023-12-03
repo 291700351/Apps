@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/plugins/plugin_config" name="plugin_config">
+                <projects>
+                  <project path="$PROJECT_DIR$/plugins/plugin_config" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/plugins/plugin_depend" name="plugin_depend">
+                <projects>
+                  <project path="$PROJECT_DIR$/plugins/plugin_depend" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/apps/app" />
+            <option value="$PROJECT_DIR$/cores/core_datastore" />
+            <option value="$PROJECT_DIR$/cores/core_room" />
+            <option value="$PROJECT_DIR$/cores/core_ui" />
+            <option value="$PROJECT_DIR$/plugins/plugin_config" />
+            <option value="$PROJECT_DIR$/plugins/plugin_depend" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
